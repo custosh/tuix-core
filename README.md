@@ -69,13 +69,6 @@ Both the `LayouEngine` and `RenderEngine` will be rewritten in upcoming versions
 
 ---
 
-# ☕ Support
-
-If this project interests you or helps you in any way,
-you can support its development by buying me a coffee ❤️
-
----
-
 # 📜 License
 
 MIT License © 2025 custosh
@@ -88,4 +81,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 ```
