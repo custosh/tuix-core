@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tuix-core"
+version = "0.1.0"
+description = "Core engine for the TUIX framework."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "custosh", email = "custosh.x@gmail.com"}
+]
+keywords = ["terminal", "ui", "cli", "layout", "engine", "tuix"]
+dependencies = [
+  "wcwidth"
+]
+
+[project.urls]
+Homepage = "https://github.com/custosh/tuix-core"
+Repository = "https://github.com/custosh/tuix-core"
+Issues = "https://github.com/custosh/tuix-core/issues"
+
+[tool.setuptools.packages.find]
+namespaces = true
