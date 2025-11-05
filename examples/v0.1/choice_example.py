@@ -4,10 +4,10 @@ from tuix.core import TuixEngine as Tuix
 app = Tuix()
 
 # Create a new component of type "choice"
-app.components.create(object_type="choice", object_id="choice")
+app.components.create(type="choice", id="choice")
 
 # Set component properties
-app.components.set_property(object_id="choice", param="label", value="Test")
+app.components.set_property(id="choice", param="label", value="Test")
 
 # Define a list of choices with actions
 app.components.set_property(
@@ -22,7 +22,8 @@ app.components.set_property(
 )
 
 # Align the component to the center using margin mode
-app.layout.margin_mode(object_id="choice", param=["margin_top", "margin_left"], mode="centered")
+app.layout.margin_mode(id="choice", param=["margin_top", "margin_left"], mode="centered")
 
 # Render the layout to the terminal
 app.render.draw()
+
